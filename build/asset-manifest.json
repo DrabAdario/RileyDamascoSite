@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RileyDamascoSite/static/css/main.2e77e19d.css",
+    "main.js": "/RileyDamascoSite/static/js/main.0337b675.js",
+    "static/js/453.acca0757.chunk.js": "/RileyDamascoSite/static/js/453.acca0757.chunk.js",
+    "index.html": "/RileyDamascoSite/index.html",
+    "main.2e77e19d.css.map": "/RileyDamascoSite/static/css/main.2e77e19d.css.map",
+    "main.0337b675.js.map": "/RileyDamascoSite/static/js/main.0337b675.js.map",
+    "453.acca0757.chunk.js.map": "/RileyDamascoSite/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e77e19d.css",
+    "static/js/main.0337b675.js"
+  ]
+}

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RileyDamascoSite/static/css/main.6eb435e5.css",
-    "main.js": "/RileyDamascoSite/static/js/main.415cc8ae.js",
-    "static/js/453.e6d42088.chunk.js": "/RileyDamascoSite/static/js/453.e6d42088.chunk.js",
-    "index.html": "/RileyDamascoSite/index.html",
-    "main.6eb435e5.css.map": "/RileyDamascoSite/static/css/main.6eb435e5.css.map",
-    "main.415cc8ae.js.map": "/RileyDamascoSite/static/js/main.415cc8ae.js.map",
-    "453.e6d42088.chunk.js.map": "/RileyDamascoSite/static/js/453.e6d42088.chunk.js.map"
+    "main.css": "/iRileyDamascoSite/static/css/main.6eb435e5.css",
+    "main.js": "/iRileyDamascoSite/static/js/main.4037acb6.js",
+    "static/js/453.e6d42088.chunk.js": "/iRileyDamascoSite/static/js/453.e6d42088.chunk.js",
+    "index.html": "/iRileyDamascoSite/index.html",
+    "main.6eb435e5.css.map": "/iRileyDamascoSite/static/css/main.6eb435e5.css.map",
+    "main.4037acb6.js.map": "/iRileyDamascoSite/static/js/main.4037acb6.js.map",
+    "453.e6d42088.chunk.js.map": "/iRileyDamascoSite/static/js/453.e6d42088.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6eb435e5.css",
-    "static/js/main.415cc8ae.js"
+    "static/js/main.4037acb6.js"
   ]
 }

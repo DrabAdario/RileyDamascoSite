@@ -1,23 +1,202 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* Hero Section */}
+      <div className="hero">
+        <img
+          className="background"
+          src="/assets/hardHat.jpg"
+          alt="background"
+        />
+        <div className="hero-content">
+          <h1>Welcome to My Website!</h1>
+          <p>
+            Hi, I'm Riley Damasco—a passionate computer science and security
+            student with a knack for game design.
+          </p>
+        </div>
+      </div>
+
+      {/* About Section */}
+      <section id="about" className="section">
+        <h2>About Me</h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I love working on ambitious projects, and there’s nothing quite as
+          satisfying as seeing an idea evolve into a fully realized project. I
+          take great pride in my work, and I’m always driven to push projects to
+          their fullest potential. My approach is highly collaborative and
+          idea-driven. I naturally step into leadership roles, but I make it a
+          point to ensure that every team member has a voice. I believe that the
+          best solutions come when diverse ideas are shared and combined. When
+          I’m not immersed in coding or designing innovative projects, you’ll
+          often find me rock climbing or at the gym.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="section">
+        <h2>Projects</h2>
+        <div className="projects-container">
+          {/* Space Astronaut Platformer */}
+          <div className="project-card">
+            <img
+              src="/assets/astro.gif"
+              alt="Space Astronaut Platformer Gameplay"
+            />
+            <div className="project-content">
+              <h3>Space Astronaut Platformer</h3>
+              <p>
+                A 2D platformer game featuring an astronaut exploring space.
+                Built with Unity and C#.
+              </p>
+              <a
+                href="https://mywebspace.quinnipiac.edu/rmdamasco/200/FinalPro/"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          {/* LET US COOK Project Card */}
+          <div className="project-card">
+            <img
+              src="/assets/letUsCook.png"
+              alt="LET US COOK Game Screenshot"
+            />
+            <div className="project-content">
+              <h3>LET US COOK (Rogue-like Game)</h3>
+              <p>
+                <strong>Role:</strong> Software Engineer
+                <br />
+                <strong>Description:</strong> Worked with a team of four
+                software engineers to create a 2D top-down rogue-like game.
+                Owned projectile and item subsystems, including software
+                architecture and UI design. Used Git for version control.
+              </p>
+              <a
+                href="https://a-r-t.github.io/SER225-Project-Website/semesters/fall2023/teams/let-us-cook"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+
+          {/* Enter The Gungeon Modding Project Card */}
+          <div className="project-card">
+            <img
+              src="/assets/mod.png"
+              alt="Enter The Gungeon Modding Screenshot"
+            />
+            <div className="project-content">
+              <h3>Enter The Gungeon Modding</h3>
+              <p>
+                <strong>Role:</strong> Open-source Software Developer
+                <br />
+                <strong>Description:</strong> Created two mods for the game
+                Enter The Gungeon, adding new items, characters, and abilities.
+                Learned how to investigate codebases with complex and sparse
+                documentation. Created hand-drawn sprites for the project.
+              </p>
+              <a
+                href="https://ellidelli.github.io/SER375ProjectsSite/projects/let_us_mod_etg"
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Current Engagements Section */}
+      <section id="engagements" className="section">
+        <h2>Current Engagements</h2>
+        <div className="engagements-container">
+          {/* Hackathon */}
+          <div className="engagement-card">
+            <img src="/assets/hack.png" alt="Hackathon" />
+            <div className="engagement-content">
+              <h3>
+                Vice President of Events | Quinnipiac Computing Club Hackathon
+              </h3>
+              <p>
+                Co-coordinated hackathons for the student body, with 19 teams
+                and 50 participants. Connected with sponsors to secure prizes
+                for winners, including M&T Tech, UNAPEN, and Connecticut
+                Manufacturing.
+              </p>
+            </div>
+          </div>
+
+          {/* Computing Club */}
+          <div className="engagement-card">
+            <img src="/assets/thatsMe.png" alt="Quinnipiac Computing Club" />
+            <div className="engagement-content">
+              <h3>Quinnipiac Computing Club</h3>
+              <p>
+                Actively involved in organizing events, workshops, and coding
+                competitions to foster a community of tech enthusiasts.
+              </p>
+            </div>
+          </div>
+
+          {/* Rock Climbing Club */}
+          <div className="engagement-card">
+            <img src="/assets/rock.jpg" alt="Rock Climbing Club" />
+            <div className="engagement-content">
+              <h3>Rock Climbing Club</h3>
+              <p>
+                A passionate member of the rock climbing club, where I enjoy
+                challenging myself physically and mentally while building
+                camaraderie with fellow climbers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="section">
+        <h2>Contact</h2>
+        <div className="contact-info">
+          <p>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:riley.damasco.04@gmail.com">
+              riley.damasco.04@gmail.com
+            </a>
+          </p>
+          <p>
+            <strong>Phone:</strong>{" "}
+            <a href="tel:+16313889669">(631) 388-9669</a>
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>{" "}
+            <a
+              href="https://www.linkedin.com/in/riley-damasco-a50b71240/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Riley Damasco
+            </a>
+          </p>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer>
+        <p>&copy; 2025 Riley Damasco. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/iRileyDamascoSite/static/css/main.6eb435e5.css",
-    "main.js": "/iRileyDamascoSite/static/js/main.1f48534b.js",
-    "static/js/453.872ed678.chunk.js": "/iRileyDamascoSite/static/js/453.872ed678.chunk.js",
+    "main.js": "/iRileyDamascoSite/static/js/main.4037acb6.js",
+    "static/js/453.e6d42088.chunk.js": "/iRileyDamascoSite/static/js/453.e6d42088.chunk.js",
     "index.html": "/iRileyDamascoSite/index.html",
     "main.6eb435e5.css.map": "/iRileyDamascoSite/static/css/main.6eb435e5.css.map",
-    "main.1f48534b.js.map": "/iRileyDamascoSite/static/js/main.1f48534b.js.map",
-    "453.872ed678.chunk.js.map": "/iRileyDamascoSite/static/js/453.872ed678.chunk.js.map"
+    "main.4037acb6.js.map": "/iRileyDamascoSite/static/js/main.4037acb6.js.map",
+    "453.e6d42088.chunk.js.map": "/iRileyDamascoSite/static/js/453.e6d42088.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6eb435e5.css",
-    "static/js/main.1f48534b.js"
+    "static/js/main.4037acb6.js"
   ]
 }
